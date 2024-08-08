@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grparent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.parent1{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 85px 40px 67px 180px;
+    display: flex;
+}
+.child{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #F7941F;
+}
+.parent2{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 85px 40px 67px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.parent3{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 5px;
+    border-radius: 8px;
+    margin: 85px 40px 67px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.parent4{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 85px 40px 67px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.parent5{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 180px;
+    display: flex;
+}
+.parent6{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.parent7{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 0px;
+    display: flex;
+    justify-content: center;
+}
+.parent8{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.parent9{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 180px;
+    display: flex;
+}
+.parent10{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+.parent11{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.parent12{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #000000;
+    background-color: #995DB5;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    margin: 0px 40px 67px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
